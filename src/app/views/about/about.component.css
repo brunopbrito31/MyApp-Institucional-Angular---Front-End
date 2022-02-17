@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-about{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-topo{
+    display: flex;
+    align-items:center;
+    height: 80%;
+    width: 100vw;
+    background-color: rgba(13, 78, 78, 0.336);
+    justify-content: space-around;
+    flex-grow: 1;
+
+}
+
+.container-topo .container-valores{
+    width:calc(100%/2 - 2%);    
+ 
+}
+
+.container-topo .container-img-valores{
+    height: 30vw;
+    width: 30vw;
+    
+   
+}
+
+.container-img-valores img{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+   
+}

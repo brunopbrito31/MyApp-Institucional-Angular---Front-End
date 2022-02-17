@@ -1,0 +1,21 @@
+.container-imagem{
+    width:100vw;
+    height:70vh;
+    display: flex;
+    justify-content:center;
+}
+
+.container-imagem img{
+    width:95%;
+    height: 100%;
+}
+
+.active{
+    animation-name: efctEx;
+    animation-duration: 3s;
+}
+
+@keyframes efctEx {
+    0%{opacity: 0;}
+    100%{opacity:1;}
+}

@@ -1,0 +1,81 @@
+.accordion-pers {
+    display: block;
+    width: 100%;
+}
+
+.example-accordion-item {
+    display: block;
+    border: solid 1px #ccc;
+}
+
+.example-accordion-item + .example-accordion-item {
+    border-top: none;
+}
+
+.example-accordion-item-header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.example-accordion-item-description {
+    font-size: 0.85em;
+    color: #999;
+}
+
+.example-accordion-item-header,
+    .example-accordion-item-body {
+    padding: 16px;
+}
+
+.example-accordion-item-header:hover {
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.example-accordion-item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.example-accordion-item:last-child {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+.accordion-nativo{
+    width: 100%;
+    height: 100%;
+}
+
+.accordion-nativo summary{
+    background-color:whitesmoke;
+    box-shadow: 2px 2px 5px rgb(3, 66, 75);
+}
+
+.accordion-nativo p {
+    
+}
+
+
+
+summary::-webkit-details-marker {
+display: none
+}
+summary:after {
+    background: rgb(3, 66, 75);
+    content: "+";
+    float: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: -4px -5px 0 0;
+    text-align: center;
+    width: 30px;
+    color: whitesmoke;
+    
+}
+details[open] summary:after {
+    content: "-";
+    color: whitesmoke;
+}
